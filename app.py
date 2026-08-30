@@ -236,7 +236,7 @@ if predict_btn:
                     }
                 }
             ))
-            fig.update_layout(height=280, margin=dict(l=10, r=10, t=30, b=10))
+            fig.update_layout(height=200, margin=dict(l=10, r=10, t=30, b=10))
             st.plotly_chart(fig, use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
